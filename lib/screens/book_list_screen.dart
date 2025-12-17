@@ -50,7 +50,7 @@ class _BookListScreenState extends State<BookListScreen> {
               itemBuilder: (context, index) {
                 Book book = books[index];
                 return ListTile(
-                  leading: Image.network(
+                  leading: Image.asset(
                     book.imageUrl,
                     width: 50,
                     height: 50,

@@ -9,7 +9,7 @@ class BookService {
       author: 'Amadou Hampâté Bâ',
       description:
           'Conte initiatique africain sur la sagesse et la connaissance.',
-      imageUrl: 'https://via.placeholder.com/150?text=Kaïdara',
+      imageUrl: 'assets/Amadou Hampâté Bâ.webp',
     ),
 
     Book(
@@ -18,7 +18,7 @@ class BookService {
       author: 'Léopold Sédar Senghor',
       description:
           'Essai autobiographique sur la négritude et la culture africaine.',
-      imageUrl: 'https://via.placeholder.com/150?text=Ce+que+je+crois',
+      imageUrl: 'assets/leopold sedar senghor.webp',
     ),
 
     Book(
@@ -26,7 +26,7 @@ class BookService {
       title: "L'Enfant noir",
       author: 'Camara Laye',
       description: 'Roman autobiographique sur l’enfance en Guinée.',
-      imageUrl: 'https://via.placeholder.com/150?text=L+Enfant+noir',
+      imageUrl: 'assets/camara laye.webp',
     ),
 
     Book(
@@ -34,7 +34,7 @@ class BookService {
       title: 'Sous l’orage',
       author: 'Seydou Badian',
       description: 'Conflit entre tradition africaine et modernité.',
-      imageUrl: 'https://via.placeholder.com/150?text=Sous+l+orage',
+      imageUrl: 'assets/seydou badian.webp',
     ),
   ];
 

@@ -40,7 +40,7 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Image.network(book!.imageUrl, height: 200, fit: BoxFit.cover),
+                  Image.asset(book!.imageUrl, height: 200, fit: BoxFit.cover),
                   SizedBox(height: 16),
                   Text(
                     book!.title,
